@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bass Practice Note Randomizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bass Practice Note Randomizer</h1>
+    <div class="note-display">
+      <p id="string">String: E</p>
+      <p id="note">Note: A</p>
+    </div>
+    
+    <div class="slider-container">
+      <label for="timeSlider">Seconds per round: <span id="timerLabel">5</span>s</label>
+      <input type="range" id="timeSlider" min="1" max="20" value="5">
+    </div>
+
+    <button id="startPauseButton">Start Practice</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
